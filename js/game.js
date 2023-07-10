@@ -167,7 +167,7 @@ class Game{
     {       
             var x, y;
             //escreva o código para criar um obstáculo na posição x aleatória.
-            obstacle.y = Math.round(random(200,400));
+            obstacle.x = Math.round(random(100, width-100));
             
             y = 0
             var obstacle = createSprite(x, y);
